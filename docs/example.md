@@ -24,7 +24,7 @@ module "application" {
     healthcheck_url = "/check.php"
 
     environment_vars = [{
-        name = "teste_var"
+        name = "teste_var",
         value = "teste_value1"
     }]
 }
